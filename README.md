@@ -1,18 +1,18 @@
 # 04-POWER-MEASUREMENT-USING-MAGIC-TEE
 
-**A.Aim:**
+## Aim:
 
 To measure isolation between E and Harms of the magic tee and Demonstrate 3 dB powerdivision in the arm of magic tree.
 
-**B.Apparatus Used:**
+## Apparatus Used:
 
 Klystron power supply, Klystron Mount, Isolator, Attenuator, Frequency meter, VSWR meter,magic tee and matched terminations.
 
-**C.Experimental Setup:**
+## Experimental Setup:
 
 <img width="701" height="358" alt="image" src="https://github.com/user-attachments/assets/8619d64e-d78f-49e2-b0f8-2e2dc038f6c9" />
 
-**D.Theory:**
+## D.Theory:
 
 A four port junction which is a combination of an E-plane and H-plane tee is called Hybrid Tee.When matched elements are introduced to reduce the reflections, it is called a magic Tee.
 It has four arms or ports which have the names indicated in figure 9.
@@ -24,23 +24,20 @@ the polarization, there can be no coupling between the two arms. The E and H arm
 The magic associated with the hybrid junction is the way in which the power is divided in the various arms. The signal fed into the shunt or H-arms divides its ~ If equally and in phase in the twoside arms with no coupling in E-arm. When the signal is fed into the series or E-arm it also divides itself equally in the two arms, but this time two halves are 180o out of phase ad there is no coupling to the H-arm. If the power is fed into one of the arms, it divides equally in the shunt and series arm and there is no coupling in the other side arm. That is to finally that in a magic tee, opposite arms are isolated.
 A magic tee can also be used as a signal combiner. If the signals are fed to both the side arms, theywill combine in phase in H-arm and 180o out of phase in E-arm.
 
-**A magic tee is normally characterized by two quantities:**
+## A magic tee is normally characterized by two quantities:
 
 1.	Isolation between E and H arms
 2.	Power division in collinear arms
-
-**Isolation between E and H arms**
+## Isolation between E and H arms
 
 If the power flowing into E arm is taken as PE and power flowing out of H-arm as PH thenIsolation(dB) = -10 log10 PH/ PE This assumes that both the collinear arms are match terminated.
 
-
-
-**Power division**
+## Power division
 
 The power fed in either the E or H arm should divide itself equally in both the side arms, when the opposite port is match terminated. If we designate the power entering the E arm as PE and power in side arms as PC1 and PC2 then the ratio of the power coupled in side arms to that entering inthe E-arm is given by the relation.
 Coupling (dB) = 10 log10 PC1/ PH = -10 log10 PC2/ PH.
 
-**E.	Procedure: General**
+## Procedure:
 
 1.	Set up the equipment as shown in fig 9a.
 2.	Keep the control knobs of Klystron Power Supply as belowMode Switch	: AM
@@ -61,32 +58,25 @@ Coupling (dB) = 10 log10 PC1/ PH = -10 log10 PC2/ PH.
 The difference in the attenuator settings gives the ration of the
 power coupled to thecollinear to that in the main arm, in dB. This value is around 3dB.
 
-**F.	Observation:**
+## Observation:
+**Isolation measurement** 
 
-**Isolation measurement** (Tabulation)
-
-**Measurement of power division** 
-
-![WhatsApp Image 2025-11-06 at 08 56 03_2052feda](https://github.com/user-attachments/assets/54eb8148-ba8e-4846-a11e-83823fc7267a)
+**Measurement of power division**
+<img width="3036" height="1812" alt="image" src="https://github.com/user-attachments/assets/ea19f469-47e3-4674-a44d-72a376c232b3" />
 
 
+**G.	Analysis of Results:**
+<img width="2844" height="1072" alt="image" src="https://github.com/user-attachments/assets/8189e74e-1118-44c2-9267-5103333eeb17" />
 
-**G.	Analysis of Results: (Write your own)**
-
-![WhatsApp Image 2025-11-06 at 08 56 02_a8e723f1](https://github.com/user-attachments/assets/b9a362ae-ba6b-4847-8bd8-f4ef88b1e949)
-
-
-**H.	Conclusions: (Write your Own)**
+## Conclusions: (Write your Own)
 
 Isolation between E and H arms (dB) = (A1 – A2) dB
 Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB
 
-**Precautions:**
+## Precautions:
 
 •	Check the connections before switching on the kit.
 •	Connections should be done properly.
 •	Observation should be taken properly.
-
-**Result:**
-
+## Result:
 The isolation between the E and H arms of the magic tee was successfully measured and found to be within the expected range, indicating proper isolation between the ports. The power division between the collinear arms was observed to be approximately 3 dB, confirming that the magic tee equally divides the input power into two arms with minimal loss. Thus, the magic tee functions effectively as a hybrid junction for power division and signal isolation in microwave systems.
